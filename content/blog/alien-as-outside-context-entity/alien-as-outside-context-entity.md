@@ -58,7 +58,7 @@ Xenobiological universalism is called "xenoscience" by its proponents, but I'd q
 
 This is, of course, absurd. Open hailing frequencies!
 
-Universalism rejects this hidebound, parochial outlook. Just as [the pond skater](https://grislyeye.games/blog/three-meet-attributes/) can't imagine existence beyond the two dimensions of its pool, our earthbound perspectives prejudice our definition of life.
+Universalism rejects this hidebound, parochial outlook. Just as [the pond skater](/blog/three-meet-attributes/) can't imagine existence beyond the two dimensions of its pool, our earthbound perspectives prejudice our definition of life.
 
 Universalism seeks to widen our understanding of what life is, and the conditions under which it might evolve. In particular, it focuses on one of the possible origins of life on Earth: autocatalytic systems.
 
