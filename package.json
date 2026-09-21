@@ -1,11 +1,11 @@
 {
-  "name": "grislyeye.com",
-  "version": "3.36.0",
+  "name": "grislyeye.games",
+  "version": "3.36.1",
   "type": "module",
   "author": {
     "name": "Ric Wood",
-    "email": "ric@grislyeye.com",
-    "url": "https://grislyeye.com/"
+    "email": "ric@grislyeye.games",
+    "url": "https://grislyeye.games/"
   },
   "engines": {
     "node": ">=25.0.0"
