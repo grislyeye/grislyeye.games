@@ -75,6 +75,10 @@
               ]
             }
           ]
+        },
+        {
+          "kind": "variable",
+          "name": "result"
         }
       ],
       "exports": [
