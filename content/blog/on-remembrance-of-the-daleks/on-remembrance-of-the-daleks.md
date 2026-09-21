@@ -92,9 +92,9 @@ You see, it hints at more: if there’s a special weapons Dalek what other speci
 
 <aside>
 
-[![Cover image from CONT/EXT](../../products/context/context.png "CONT/EXT")](/products/context)
+[![Cover image from CONT/EXT](../../products/context/context.png "CONT/EXT")](https://grislyeye.games/products/context)
 
-This article was research for [CONT/EXT](/products/context), my upcoming britpunk one-shot for Mothership. Please follow or [subscribe](/mailing-list/) for updates.
+This article was research for [CONT/EXT](https://grislyeye.games/products/context), my upcoming britpunk one-shot for Mothership. Please follow or [subscribe](/mailing-list/) for updates.
 
 </aside>
 
