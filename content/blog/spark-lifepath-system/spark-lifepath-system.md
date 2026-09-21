@@ -69,7 +69,7 @@ You can roll as many as 30 times on the same spark table for this system, so tab
 
 ## Dismas Remade
 
-This is an example of a lifepath system taken from my home campaign, [Dismas Remade](https://dismas.grislyeye.com), plugging in [random tables](#the-tables) from my GM notes:
+This is an example of a lifepath system taken from my home campaign, [Dismas Remade](https://dismas.grislyeye.games), plugging in [random tables](#the-tables) from my GM notes:
 
 1. [Roll for homeland](#1-roll-for-homeland).
 2. [Roll for background](#2-roll-for-background).
