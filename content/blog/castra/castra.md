@@ -79,7 +79,7 @@ Principles:
 - **Political exiles** vie for off-world visas.
 - **Occupied** by Fulcrum military forces and private contractors.
 - Swarms with spies and **intrigue**.
-- **Imperialised** shops and concessions for home-sick Centurions.
+- **Imperialized** shops and concessions for home-sick Centurions.
 
 Locations and NPCs within the city include:
 
