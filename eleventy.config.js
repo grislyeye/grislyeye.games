@@ -30,9 +30,9 @@ export default async (eleventyConfig) => {
     });
 
     mdLib.use(alert, {
-      titleRender: () => "",
-      openRender: () => "<aside>",
-      closeRender: () => "</aside>"
+      titleRenderer: () => "",
+      openRenderer: () => "<aside>",
+      closeRenderer: () => "</aside>"
     });
   });
 
