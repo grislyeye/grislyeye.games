@@ -8,11 +8,11 @@ image: /blog/castra/castra.png
 randomisers: true
 ---
 
-Castra was a guided [Starforged](https://tomkinpress.com/pages/ironsworn-starforged) campaign I ran loosely based on *Andor*. My group were on a post-Season 2 high and we had a spare slot, so I thought I'd give my players a little gift and run this for them.
+My group loves, really loves, *Andor*, the Star Wars prequel to the **Castra** was a guided [Starforged](https://tomkinpress.com/pages/ironsworn-starforged) campaign I ran, loosely based on *Andor*. My group were on a post-Season 2 high and we had a spare slot, so I thought I'd give my players a little gift and run this for them.
 
-Castra was set in the [Agilius Free Sector](#agilius-free-sector): an attempt to hammer a Star Wars-like setting into the Starforged game. Of course, I wasn't just going to run it in a vanilla Star Wars setting so I had some fun with it. Maybe subvert a few tropes. Play around with the lo-fi, steady-state futurism of 80s scifi. I dipped into Ancient Roman themes and motifs and focused on intrigue. While keeping the iron-based theme of the *Starforged*.
+Castra was set in the [Agilius Free Sector](#agilius-free-sector): an attempt to hammer a Star Wars-like setting into the Starforged game. Of course, I wasn't just going to run it in a vanilla Star Wars setting so I had some fun with it. Maybe subvert a few tropes. Play around with the lo-fi, steady-state futurism of 80s scifi. I dipped into Ancient Roman themes and motifs and focused on intrigue, while keeping the iron-based theme of the *Starforged*.
 
-I'm posting it here because I don't think it's got enough meat on it to publish and it'll just be sitting on my hard drive, gathering dust.
+I'm posting it here because I don't think it's got enough meat on it to publish and it'll just be sitting on my hard drive, gathering dust otherwise.
 
 The premise was as follows:
 
@@ -101,15 +101,15 @@ Principles:
 
 - **Infested.** Unbeknownst to the public, Hypatia is infested by the remnants of a Fulcrum bioweapon, a mould-like fungus that is slowly poisoning the lower (and poorer) decks of the habitat. It can also awaken latent psionic powers, and Lictors are investigating why with keen interest.
 
-### Strontium
+### The Strontium
 
-Hydra-Class Destroyers ■■■■■ are a vast, hyperspace-capable starship and weapons platforms, typically deployed by the Legions to enforce foreign policy through intimidation and gunboat diplomacy. Each Hydra sports multiple turrets, hundreds of meters tall, each carrying an arsenal of high-energy weapons. Their combined might can bombard an entire planet.
+Hydra-Class Destroyers ■■■■■ are vast, hyperspace-capable starships and weapons platforms, typically deployed by the Legions to enforce foreign policy through intimidation and gunboat diplomacy. Each Hydra sports multiple turrets, hundreds of meters tall, each carrying an arsenal of high-energy weapons. Their combined might can bombard an entire planet.
 
 The Strontium is a Hydra-Class Destroyer in orbit around Agilius, and acts as a base of operations for the Fifth Carbon Legion on the planet.
 
 Principles:
 
-- Prisoner of war black site.
+- Prisoner-of-war black site.
 - Lucina is a double-agent aboard the ship.
 - Grand Lictor Penance is stationed here with three adepts.
 
@@ -143,7 +143,7 @@ Centurions are the ground troops of the Legions. Now that the Forge Wars are ove
 
 ### Centurion Unit ■■
 
-Centurions will rarely be encountered alone, and  work best together. A well-trained centurion unit is greater than its parts.
+Centurions will rarely be encountered alone, and work best together. A well-trained centurion unit is greater than its parts.
 
 ### **Cerberite ■■**
 
@@ -205,9 +205,9 @@ A larger carrier, like a Hydra-Class Destroyer, can deploy thousands of these fi
 
 ## Appendix: Vibes
 
-We shouldn't really call them [spark tables](https://www.bastionland.com/2017/11/electric-modernity-and-spark-tables.html), vibe tables are a way better term. Whatever, here is a random table to spark your imagination when you're stuck and want something thematic.
+We shouldn't really call them [spark tables](https://www.bastionland.com/2017/11/electric-modernity-and-spark-tables.html), vibe tables is a way better term. Whatever, here is a random table of prompts for when you're stuck and want something thematic.
 
-<vellum-random-table select="#result" preroll hidecalc class="two-column">
+<vellum-random-table select="#result-1" preroll hidecalc class="two-column">
 
 | d20  | Spark 1         | Spark 2      |
 | ---- | --------------- | ------------ |
@@ -236,41 +236,41 @@ We shouldn't really call them [spark tables](https://www.bastionland.com/2017/11
 <my-button class="small">
 <button>Roll</button>
 </my-button>
-<input id="result" type="text" />
+<input id="result-1" type="text" />
 </div>
 </vellum-random-table>
 
 ## Appendix II: Clues and Rumours
 
-<vellum-random-table select="#result" preroll hidecalc class="two-column">
+<vellum-random-table select="#result-2" preroll hidecalc class="two-column">
 
-| d20 | Clue or Rumour                                                                                                                       |
-|-----|--------------------------------------------------------------------------------------------------------------------------------------|
-| 1   | Endo Rees recently disappeared from Castra without a trace.                                                                          |
-| 2   | Comms logs showing unusually large amounts of comms to and from the H2 Facility on Glora.                                            |
-| 3   | Palp Nominus received payment from Monarch in person.                                                                                |
-| 4   | There is an Insurgency (Iron Insurgency\) commslink hidden in a backroom at Arnavs.                                                  |
-| 5   | Navlogs showing Monarch's unregistered ship heading from Agilius back to Archive/🪐 Castra/Hypatia.                                  |
-| 6   | Centurions (Centurion ■\) are searching Castra for a missing Knot bioweapon (false).                                                 |
-| 7   | An old holo from the Forge Wars showing Monarch and his unit.                                                                        |
-| 8   | The Senator has recently made a generous donation to the Force Charity.                                                              |
-| 9   | The Senator recently visited Archive/🪐 Castra/Hypatia on a fact finding mission where she met with Monarch.                         |
-| 10  | ARG-O recently returned to Castra from the H2 Facility to pick up spare transmitter parts.                                           |
-| 11  | Commslogs between Strontium agent and Monarch.                                                                                       |
-| 12  | Commslogs between Monarch and Orm training compound.                                                                                 |
-| 13  | Penance (Grand Lictor Penance ■■■■\) and Monarch are old enemies.                                                                    |
-| 14  | Legions tracker has been planted on the PCs ship since its last engine re-platting, several months ago.                              |
-| 15  | There is an Insurgency (Iron Insurgency\) commslink hidden in Monarch's office on Archive/🪐 Castra/Hypatia.                         |
-| 16  | Iron Insurgency to blame for the recent Massacre at a Force Charity camp in Warzone (false).                                         |
-| 17  | Strontium agent sends a message to the party reading PNCE WNTS U T LD HIM T CDIUM                                                    |
-| 18  | A comms from The Captain to Grand Lictor Penance ■■■■ asking him for an update and demanding he report to the Strontium immediately. |
-| 19  | The party are being followed by a hooded figure.                                                                                     |
-| 20  | The Ernelius docked at Castra recently, despite the fact there hasn't been an iron mine here for years.                              |
+| d20  | Clue or Rumour                                               |
+| ---- | ------------------------------------------------------------ |
+| 1    | Endo Rees recently disappeared from Castra without a trace.  |
+| 2    | Comms logs showing unusually large amounts of comms to and from the H2 Facility on Glora. |
+| 3    | Palp Nominus received payment from Monarch in person.        |
+| 4    | There is an Insurgency (Iron Insurgency\) commslink hidden in a backroom at Arnavs. |
+| 5    | Navlogs showing Monarch's unregistered ship heading from Agilius back to Hypatia. |
+| 6    | Centurions are searching Castra for a missing Knot bioweapon (false). |
+| 7    | An old holo from the Forge Wars showing Monarch and his unit. |
+| 8    | The Senator has recently made a generous donation to the Force Charity. |
+| 9    | The Senator recently visited Hypatia on a fact finding mission where she met with Monarch. |
+| 10   | ARG-O recently returned to Castra from the H2 Facility to pick up spare transmitter parts. |
+| 11   | Commslogs between Strontium agent and Monarch.               |
+| 12   | Commslogs between Monarch and Orm training compound.         |
+| 13   | Penance and Monarch are old enemies.                         |
+| 14   | Legions tracker has been planted on the PCs ship since its last engine re-platting, several months ago. |
+| 15   | There is an Insurgency (Iron Insurgency\) commslink hidden in Monarch's office on Hypatia. |
+| 16   | Iron Insurgency to blame for the recent Massacre at a Force Charity camp in Warzone (false). |
+| 17   | Strontium agent sends a message to the party reading PNCE WNTS U T LD HIM T CDIUM |
+| 18   | A comms from The Captain to Grand Lictor Penance asking him for an update and demanding he report to the Strontium immediately. |
+| 19   | The party are being followed by a hooded figure.             |
+| 20   | The Ernelius docked at Castra recently, despite the fact there hasn't been an iron mine here for years. |
 
 <div class="roller">
 <my-button class="small">
 <button>Roll</button>
 </my-button>
-<input id="result" type="text" />
+<input id="result-2" type="text" />
 </div>
 </vellum-random-table>
