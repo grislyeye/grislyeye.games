@@ -244,28 +244,28 @@ We shouldn't really call them [spark tables](https://www.bastionland.com/2017/11
 
 <vellum-random-table select="#result-2" preroll hidecalc class="two-column">
 
-| d20  | Clue or Rumour                                               |
-| ---- | ------------------------------------------------------------ |
-| 1    | Endo Rees recently disappeared from Castra without a trace.  |
-| 2    | Comms logs showing unusually large amounts of comms to and from the H2 Facility on Glora. |
-| 3    | Palp Nominus received payment from Monarch in person.        |
-| 4    | There is an Insurgency (Iron Insurgency\) commslink hidden in a backroom at Arnavs. |
-| 5    | Navlogs showing Monarch's unregistered ship heading from Agilius back to Hypatia. |
-| 6    | Centurions are searching Castra for a missing Knot bioweapon (false). |
-| 7    | An old holo from the Forge Wars showing Monarch and his unit. |
-| 8    | The Senator has recently made a generous donation to the Force Charity. |
-| 9    | The Senator recently visited Hypatia on a fact finding mission where she met with Monarch. |
-| 10   | ARG-O recently returned to Castra from the H2 Facility to pick up spare transmitter parts. |
-| 11   | Commslogs between Strontium agent and Monarch.               |
-| 12   | Commslogs between Monarch and Orm training compound.         |
-| 13   | Penance and Monarch are old enemies.                         |
-| 14   | Legions tracker has been planted on the PCs ship since its last engine re-platting, several months ago. |
-| 15   | There is an Insurgency (Iron Insurgency\) commslink hidden in Monarch's office on Hypatia. |
-| 16   | Iron Insurgency to blame for the recent Massacre at a Force Charity camp in Warzone (false). |
-| 17   | Strontium agent sends a message to the party reading PNCE WNTS U T LD HIM T CDIUM |
-| 18   | A comms from The Captain to Grand Lictor Penance asking him for an update and demanding he report to the Strontium immediately. |
-| 19   | The party are being followed by a hooded figure.             |
-| 20   | The Ernelius docked at Castra recently, despite the fact there hasn't been an iron mine here for years. |
+| d20 | Clue or Rumour                                                                                                                  |
+|-----|---------------------------------------------------------------------------------------------------------------------------------|
+| 1   | Endo Rees recently disappeared from Castra without a trace.                                                                     |
+| 2   | Comms logs showing unusually large amounts of comms to and from the H2 Facility on Glora.                                       |
+| 3   | Palp Nominus received payment from Monarch in person.                                                                           |
+| 4   | There is an Insurgency (Iron Insurgency\) commslink hidden in a backroom at Arnavs.                                             |
+| 5   | Navlogs showing Monarch's unregistered ship heading from Agilius back to Hypatia.                                               |
+| 6   | Centurions are searching Castra for a missing Knot bioweapon (false).                                                           |
+| 7   | An old holo from the Forge Wars showing Monarch and his unit.                                                                   |
+| 8   | The Senator has recently made a generous donation to the Force Charity.                                                         |
+| 9   | The Senator recently visited Hypatia on a fact finding mission where she met with Monarch.                                      |
+| 10  | ARG-O recently returned to Castra from the H2 Facility to pick up spare transmitter parts.                                      |
+| 11  | Commslogs between Strontium agent and Monarch.                                                                                  |
+| 12  | Commslogs between Monarch and Orm training compound.                                                                            |
+| 13  | Penance and Monarch are old enemies.                                                                                            |
+| 14  | Legions tracker has been planted on the PCs ship since its last engine re-platting, several months ago.                         |
+| 15  | There is an Insurgency (Iron Insurgency\) commslink hidden in Monarch's office on Hypatia.                                      |
+| 16  | Iron Insurgency to blame for the recent Massacre at a Force Charity camp in Warzone (false).                                    |
+| 17  | Strontium agent sends a message to the party reading PNCE WNTS U T LD HIM T CDIUM                                               |
+| 18  | A comms from The Captain to Grand Lictor Penance asking him for an update and demanding he report to the Strontium immediately. |
+| 19  | The party are being followed by a hooded figure.                                                                                |
+| 20  | The Ernelius docked at Castra recently, despite the fact there hasn't been an iron mine here for years.                         |
 
 <div class="roller">
 <my-button class="small">
