@@ -30,7 +30,7 @@ The premise was as follows:
 
 Players start as agents of the Iron Insurgency. The Insurgency is a ragtag network of spies, sympathisers, radicals and Forge War veterans who are fighting a guerrilla war against the Fifth Carbon Legion. Through a campaign of sabotage, espionage and guerrilla warfare they seek to break the occupation and re-establish the Iron Bloc. The Iron Insurgency has repurposed the heavy machinery of its industrial past as weapons against the Fifth Carbon Legion.
 
-Players begin with Monarch (a Formidable Insurgency Contact) as their starting connection. They know very little about him, only that he's very secretive, communicates only by radio and works for the Iron Insurgency. Unbenownkst to the rest of the insurgency, Monarch is secretly raising an army to strike back at the Fifth Carbon Legion. His plan is to acquire the [Strontium](#strontium) command codes and have the party imprisoned aboard the Strontium. He has an agent aboard who can release the party so that they can then gain control of the Strontium and use it to start a war to reunite the Old Bloc Worlds.
+Players begin with Monarch (a Formidable Insurgency Contact) as their starting connection. They know very little about him, only that he's very secretive, communicates only by radio and works for the Iron Insurgency. Unbenownkst to the rest of the insurgency, Monarch is secretly raising an army to strike back at the Fifth Carbon Legion. His plan is to acquire the [Strontium](#the-strontium) command codes and have the party imprisoned aboard the Strontium. He has an agent aboard who can release the party so that they can then gain control of the Strontium and use it to start a war to reunite the Old Bloc Worlds.
 
 Grand Lictor Penance ■■■■ is is hunting for Monarch. Unbeknownst to *his* superiors in Fifth Carbon Legion, he plans to help the party escape, long enough for them to lead him to his target.
 
@@ -69,7 +69,7 @@ The most notable location in the sector is, of course, [Castra](#castra). Other 
 >
 > These maps were created using *The Department of Unusual Observations'* excellent [Sector Grid](https://deptofunusual.itch.io/sector-grids) templates. They're free, the look crazy good and really pulled together the vibe of the campaign.
 
-Castra itself is an occupied spaceport on the storm world of Agilius. The city has been demarcated as Fulcrum special economic zone. Because of its dubious legal status, it also operates as a diplomatic no-man's-land populated by profiteers, spies and political exiles. The Fifth Carbon Legion's capital ship, [The Strontium](#strontium) (■■■■■), orbits the planet, its menacing presence looming over the city.
+Castra itself is an occupied spaceport on the storm world of Agilius. The city has been demarcated as Fulcrum special economic zone. Because of its dubious legal status, it also operates as a diplomatic no-man's-land populated by profiteers, spies and political exiles. The Fifth Carbon Legion's capital ship, [The Strontium](#the-strontium) (■■■■■), orbits the planet, its menacing presence looming over the city.
 
 Principles:
 
