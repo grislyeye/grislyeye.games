@@ -93,7 +93,7 @@ class MyNavigationBar extends LitElement {
 
   static renderSocial(type, link, label) {
     return html` <div class="social">
-      <a href="${link}" title="${label}">
+      <a rel="me" href="${link}" title="${label}">
         <img src="/images/${type}.svg" class="icon" alt="${type} label" />
         ${label}
       </a>
