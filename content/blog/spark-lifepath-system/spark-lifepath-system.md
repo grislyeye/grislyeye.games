@@ -4,7 +4,7 @@ tags:
   - posts
 date: 2025-11-18
 layout: layouts/post.njk
-randomisers: true
+randomizers: true
 image: /blog/spark-lifepath-system/percy.png
 ---
 
