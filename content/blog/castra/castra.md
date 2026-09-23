@@ -5,7 +5,7 @@ tags:
 date: 2026-08-10
 layout: layouts/post.njk
 image: /blog/castra/castra.png
-randomisers: true
+randomizers: true
 ---
 
 My group loves, really loves, *Andor*, the Star Wars prequel to the **Castra** was a guided [Starforged](https://tomkinpress.com/pages/ironsworn-starforged) campaign I ran, loosely based on *Andor*. My group were on a post-Season 2 high and we had a spare slot, so I thought I'd give my players a little gift and run this for them.
@@ -18,7 +18,7 @@ The premise was as follows:
 
 > It's been 30 years since the Forge Wars ended, and the victorious Fulcrum Powers dismantled the Iron Bloc.  The Old Bloc Worlds now languish under the brutal military occupancy of the Fifth Carbon Legion.
 >
-> You are members of the Iron Insurgency, a ragtag network of spies, sympathisers, radicals and Forge War veterans who are fighting a guerrilla war against the occupation.
+> You are members of the Iron Insurgency, a ragtag network of spies, sympathizers, radicals and Forge War veterans who are fighting a guerrilla war against the occupation.
 >
 > Despite your fervour, it's a war you've been losing, but there is hope. You've been sent on a mission to recover vital information that could turn the tide.
 >
@@ -28,7 +28,7 @@ The premise was as follows:
 >
 > A local fixer has set up a rendezvous with the seller. All you have to do is show up, make the exchange and get out.
 
-Players start as agents of the Iron Insurgency. The Insurgency is a ragtag network of spies, sympathisers, radicals and Forge War veterans who are fighting a guerrilla war against the Fifth Carbon Legion. Through a campaign of sabotage, espionage and guerrilla warfare they seek to break the occupation and re-establish the Iron Bloc. The Iron Insurgency has repurposed the heavy machinery of its industrial past as weapons against the Fifth Carbon Legion.
+Players start as agents of the Iron Insurgency. The Insurgency is a ragtag network of spies, sympathizers, radicals and Forge War veterans who are fighting a guerrilla war against the Fifth Carbon Legion. Through a campaign of sabotage, espionage and guerrilla warfare they seek to break the occupation and re-establish the Iron Bloc. The Iron Insurgency has repurposed the heavy machinery of its industrial past as weapons against the Fifth Carbon Legion.
 
 Players begin with Monarch (a Formidable Insurgency Contact) as their starting connection. They know very little about him, only that he's very secretive, communicates only by radio and works for the Iron Insurgency. Unbenownkst to the rest of the insurgency, Monarch is secretly raising an army to strike back at the Fifth Carbon Legion. His plan is to acquire the [Strontium](#the-strontium) command codes and have the party imprisoned aboard the Strontium. He has an agent aboard who can release the party so that they can then gain control of the Strontium and use it to start a war to reunite the Old Bloc Worlds.
 
