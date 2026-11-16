@@ -1,4 +1,4 @@
-import path from "path";
+import path from "node:path";
 import eleventyImage from "@11ty/eleventy-img";
 import markdownIt from "markdown-it";
 

@@ -12,7 +12,7 @@ import pluginLit from "@lit-labs/eleventy-plugin-lit";
 import pluginSEO from "eleventy-plugin-seo";
 import pluginGoogleFonts from "eleventy-google-fonts";
 
-import path from "path";
+import path from "node:path";
 import { exec } from "node:child_process";
 
 import parseChat from "./_lib/chat.js";
@@ -54,7 +54,7 @@ export default async (eleventyConfig) => {
       });
     })
     .on("eleventy.after", async () => {
-      await exec("npm run test:lint", (error, stdout, stderr) => {
+      await exec("npm run test:lint", (_, stdout, stderr) => {
         console.log(stdout);
         console.error(stderr);
       });
@@ -110,7 +110,7 @@ export default async (eleventyConfig) => {
   eleventyConfig.addCollection("canonical", (collectionApi) => {
     return collectionApi
       .getAll()
-      .filter((page) => !page.data.tags || !page.data.tags.includes("drafts"))
+      .filter((page) => !page.data.tags?.includes("drafts"))
       .filter((page) => page.data.redirectTo === undefined);
   });
 
