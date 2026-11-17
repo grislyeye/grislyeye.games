@@ -8,7 +8,7 @@ image: /blog/castra/castra.png
 randomizers: true
 ---
 
-At my table we stan [Andor](https://www.starwars.com/series/andor). 
+At my table we stan [Andor](https://www.starwars.com/series/andor).
 
 as a treat, I ran a short campaign **Castra** was a guided [Starforged](https://tomkinpress.com/pages/ironsworn-starforged) campaign I ran, loosely based on _Andor_. My group were on a post-Season 2 high and we had a spare slot, so I thought I'd give my players a little gift and run this for them.
 
