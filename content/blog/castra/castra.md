@@ -8,15 +8,15 @@ image: /blog/castra/castra.png
 randomizers: true
 ---
 
-My group loves, really loves, *Andor*, the Star Wars prequel to the **Castra** was a guided [Starforged](https://tomkinpress.com/pages/ironsworn-starforged) campaign I ran, loosely based on *Andor*. My group were on a post-Season 2 high and we had a spare slot, so I thought I'd give my players a little gift and run this for them.
+My group loves, really loves, _Andor_, the Star Wars prequel to the **Castra** was a guided [Starforged](https://tomkinpress.com/pages/ironsworn-starforged) campaign I ran, loosely based on _Andor_. My group were on a post-Season 2 high and we had a spare slot, so I thought I'd give my players a little gift and run this for them.
 
-Castra was set in the [Agilius Free Sector](#agilius-free-sector): an attempt to hammer a Star Wars-like setting into the Starforged game. Of course, I wasn't just going to run it in a vanilla Star Wars setting so I had some fun with it. Maybe subvert a few tropes. Play around with the lo-fi, steady-state futurism of 80s scifi. I dipped into Ancient Roman themes and motifs and focused on intrigue, while keeping the iron-based theme of the *Starforged*.
+Castra was set in the [Agilius Free Sector](#agilius-free-sector): an attempt to hammer a Star Wars-like setting into the Starforged game. Of course, I wasn't just going to run it in a vanilla Star Wars setting so I had some fun with it. Maybe subvert a few tropes. Play around with the lo-fi, steady-state futurism of 80s scifi. I dipped into Ancient Roman themes and motifs and focused on intrigue, while keeping the iron-based theme of the _Starforged_.
 
 I'm posting it here because I don't think it's got enough meat on it to publish and it'll just be sitting on my hard drive, gathering dust otherwise.
 
 The premise was as follows:
 
-> It's been 30 years since the Forge Wars ended, and the victorious Fulcrum Powers dismantled the Iron Bloc.  The Old Bloc Worlds now languish under the brutal military occupancy of the Fifth Carbon Legion.
+> It's been 30 years since the Forge Wars ended, and the victorious Fulcrum Powers dismantled the Iron Bloc. The Old Bloc Worlds now languish under the brutal military occupancy of the Fifth Carbon Legion.
 >
 > You are members of the Iron Insurgency, a ragtag network of spies, sympathizers, radicals and Forge War veterans who are fighting a guerrilla war against the occupation.
 >
@@ -32,7 +32,7 @@ Players start as agents of the Iron Insurgency. The Insurgency is a ragtag netwo
 
 Players begin with Monarch (a Formidable Insurgency Contact) as their starting connection. They know very little about him, only that he's very secretive, communicates only by radio and works for the Iron Insurgency. Unbenownkst to the rest of the insurgency, Monarch is secretly raising an army to strike back at the Fifth Carbon Legion. His plan is to acquire the [Strontium](#the-strontium) command codes and have the party imprisoned aboard the Strontium. He has an agent aboard who can release the party so that they can then gain control of the Strontium and use it to start a war to reunite the Old Bloc Worlds.
 
-Grand Lictor Penance ■■■■ is is hunting for Monarch. Unbeknownst to *his* superiors in Fifth Carbon Legion, he plans to help the party escape, long enough for them to lead him to his target.
+Grand Lictor Penance ■■■■ is is hunting for Monarch. Unbeknownst to _his_ superiors in Fifth Carbon Legion, he plans to help the party escape, long enough for them to lead him to his target.
 
 I also came up with some custom moves to emphasise these storylines:
 
@@ -44,7 +44,7 @@ I also came up with some custom moves to emphasise these storylines:
 
 ![Map of Agilius Free Sector](agilius-sector.png "Map of Agilius Free Sector")
 
-The Agilius Free Sector is the core setting for *Castra*. It is a neutral zone within the Old Bloc Worlds, established as a buffer between the various Fulcrum powers.
+The Agilius Free Sector is the core setting for _Castra_. It is a neutral zone within the Old Bloc Worlds, established as a buffer between the various Fulcrum powers.
 
 The Agilius Free Sector belonged to Iron Bloc, a socialist union of worlds that were dismantled after a prolonged interstellar war with the Fulcrum. This sector is now part of the Old Bloc Worlds, an occupied space rich in iron ore, which was the Bloc's main export. Profits were reinvested into giant infrastructure projects, much of which now lie in ruins or have been acquired by foreign investors from Fulcrum sectors.
 
@@ -59,7 +59,7 @@ The Fifth Carbon Legion is occupying this sector. The Fifth Carbon Legion is the
 The most notable location in the sector is, of course, [Castra](#castra). Other notable locations include:
 
 - **Glora.** A solitary gas giant. Its atmosphere is rich in rare gases useful in the production of droids.
-- **H2 Facility**. One of the decommissioned, rare-gas refineries that sit in the upper atmosphere of Glora.  It is now a secret Insurgency communications outpost, operated by a skeleton crew who coordinate operations in this sector. The cell is split by a leadership crisis as militant and conciliatory factions, seeking peaceful coexistence with the occupancy, vie for power.
+- **H2 Facility**. One of the decommissioned, rare-gas refineries that sit in the upper atmosphere of Glora. It is now a secret Insurgency communications outpost, operated by a skeleton crew who coordinate operations in this sector. The cell is split by a leadership crisis as militant and conciliatory factions, seeking peaceful coexistence with the occupancy, vie for power.
 
 ### Castra
 
@@ -67,7 +67,7 @@ The most notable location in the sector is, of course, [Castra](#castra). Other 
 
 > [!NOTE]
 >
-> These maps were created using *The Department of Unusual Observations'* excellent [Sector Grid](https://deptofunusual.itch.io/sector-grids) templates. They're free, the look crazy good and really pulled together the vibe of the campaign.
+> These maps were created using _The Department of Unusual Observations'_ excellent [Sector Grid](https://deptofunusual.itch.io/sector-grids) templates. They're free, the look crazy good and really pulled together the vibe of the campaign.
 
 Castra itself is an occupied spaceport on the storm world of Agilius. The city has been demarcated as Fulcrum special economic zone. Because of its dubious legal status, it also operates as a diplomatic no-man's-land populated by profiteers, spies and political exiles. The Fifth Carbon Legion's capital ship, [The Strontium](#the-strontium) (■■■■■), orbits the planet, its menacing presence looming over the city.
 
@@ -88,7 +88,7 @@ Locations and NPCs within the city include:
 - **Central Plaza.** A large, circular plaza situated at the centre of the city core. Home to a permanent bazaar, where merchants trade goods as they arrive from the space yard, day and night. It is dominated by the Ellegiate, which overlooks the plaza.
 - **Ellegiate:** once Castra's premium hotel, before it was commandeered by the Fifth Carbon Legion as quarters for legionnaire officers and visiting Fulcrum dignitaries.
 - **Shipyard.** The Shipyard on Castra sits apart from the city core, on a platform over the sea.
-  - **FAB-R.** Nav droid who operates the shipyard on Castra. No ship operations in and out of Castra slip his notice. He  was a nav droid aboard an Iron Insurgency war ship before he was captured and re-purposed by the Fifth Carbon Legion.
+  - **FAB-R.** Nav droid who operates the shipyard on Castra. No ship operations in and out of Castra slip his notice. He was a nav droid aboard an Iron Insurgency war ship before he was captured and re-purposed by the Fifth Carbon Legion.
 - **Thermicium.** A series of thermal baths carved out of the bedrock beneath Castra. They were intended as communal baths for workers, but now they are an exclusive luxury for merchants and Fifth Carbon Legion officers.
 
 ### Hypatia
@@ -167,7 +167,7 @@ Centurions will rarely be encountered alone, and work best together. A well-trai
 
 Cerberites are used by centurions for patrol, tracking and bomb detection. Typically accompanied by centurion handlers. Cerberite units can be wilful, and often ignore commands once they detect enemies.
 
-### Penance  ■■■■
+### Penance ■■■■
 
 **Features:**
 
@@ -209,28 +209,28 @@ We shouldn't really call them [spark tables](https://www.bastionland.com/2017/11
 
 <vellum-random-table select="#result-1" preroll hidecalc class="two-column">
 
-| d20  | Spark 1         | Spark 2      |
-| ---- | --------------- | ------------ |
-| 1    | Counter         | Insurgency   |
-| 2    | Imperial        | Espionage    |
-| 3    | Colonial        | Resistance   |
-| 4    | Guerrilla       | Warfare      |
-| 5    | Steady-state    | Camp         |
-| 6    | Orbital         | Fatigue      |
-| 7    | Training        | Relay        |
-| 8    | Insidious       | Collaborator |
-| 9    | Splinter        | Defector     |
-| 10   | Prison          | Camp         |
-| 11   | Slick           | Massacre     |
-| 12   | Power           | Traitor      |
-| 13   | Iron            | War          |
-| 14   | Carbon          | Tail         |
-| 15   | Separatist      | Tell         |
-| 16   | Slate           | Station      |
-| 17   | Cobalt          | Smelter      |
-| 18   | Mustard         | Schism       |
-| 19   | Turquoise       | Trace        |
-| 20   | Scuffed         | Trouble      |
+| d20 | Spark 1      | Spark 2      |
+| --- | ------------ | ------------ |
+| 1   | Counter      | Insurgency   |
+| 2   | Imperial     | Espionage    |
+| 3   | Colonial     | Resistance   |
+| 4   | Guerrilla    | Warfare      |
+| 5   | Steady-state | Camp         |
+| 6   | Orbital      | Fatigue      |
+| 7   | Training     | Relay        |
+| 8   | Insidious    | Collaborator |
+| 9   | Splinter     | Defector     |
+| 10  | Prison       | Camp         |
+| 11  | Slick        | Massacre     |
+| 12  | Power        | Traitor      |
+| 13  | Iron         | War          |
+| 14  | Carbon       | Tail         |
+| 15  | Separatist   | Tell         |
+| 16  | Slate        | Station      |
+| 17  | Cobalt       | Smelter      |
+| 18  | Mustard      | Schism       |
+| 19  | Turquoise    | Trace        |
+| 20  | Scuffed      | Trouble      |
 
 <div class="roller">
 <my-button class="small">
@@ -245,7 +245,7 @@ We shouldn't really call them [spark tables](https://www.bastionland.com/2017/11
 <vellum-random-table select="#result-2" preroll hidecalc class="two-column">
 
 | d20 | Clue or Rumour                                                                                                                  |
-|-----|---------------------------------------------------------------------------------------------------------------------------------|
+| --- | ------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | Endo Rees recently disappeared from Castra without a trace.                                                                     |
 | 2   | Comms logs showing unusually large amounts of comms to and from the H2 Facility on Glora.                                       |
 | 3   | Palp Nominus received payment from Monarch in person.                                                                           |
