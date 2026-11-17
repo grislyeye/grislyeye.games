@@ -8,7 +8,9 @@ image: /blog/castra/castra.png
 randomizers: true
 ---
 
-My group loves, really loves, _Andor_, the Star Wars prequel to the **Castra** was a guided [Starforged](https://tomkinpress.com/pages/ironsworn-starforged) campaign I ran, loosely based on _Andor_. My group were on a post-Season 2 high and we had a spare slot, so I thought I'd give my players a little gift and run this for them.
+At my table we stan [Andor](https://www.starwars.com/series/andor). 
+
+as a treat, I ran a short campaign **Castra** was a guided [Starforged](https://tomkinpress.com/pages/ironsworn-starforged) campaign I ran, loosely based on _Andor_. My group were on a post-Season 2 high and we had a spare slot, so I thought I'd give my players a little gift and run this for them.
 
 Castra was set in the [Agilius Free Sector](#agilius-free-sector): an attempt to hammer a Star Wars-like setting into the Starforged game. Of course, I wasn't just going to run it in a vanilla Star Wars setting so I had some fun with it. Maybe subvert a few tropes. Play around with the lo-fi, steady-state futurism of 80s scifi. I dipped into Ancient Roman themes and motifs and focused on intrigue, while keeping the iron-based theme of the _Starforged_.
 
