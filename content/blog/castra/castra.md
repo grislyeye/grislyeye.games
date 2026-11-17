@@ -2,7 +2,7 @@
 title: Castra
 tags:
   - posts
-date: 2026-08-10
+date: 2026-11-19
 layout: layouts/post.njk
 image: /blog/castra/castra.png
 randomizers: true
