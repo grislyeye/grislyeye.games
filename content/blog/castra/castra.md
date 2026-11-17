@@ -14,9 +14,9 @@ as a treat, I ran a short campaign **Castra** was a guided [Starforged](https://
 
 Castra was set in the [Agilius Free Sector](#agilius-free-sector): an attempt to hammer a Star Wars-like setting into the Starforged game. Of course, I wasn't just going to run it in a vanilla Star Wars setting so I had some fun with it. Maybe subvert a few tropes. Play around with the lo-fi, steady-state futurism of 80s scifi. I dipped into Ancient Roman themes and motifs and focused on intrigue, while keeping the iron-based theme of the _Starforged_.
 
-I'm posting it here because I don't think it's got enough meat on it to publish and it'll just be sitting on my hard drive, gathering dust otherwise.
+I'm posting it here because I don't think it's got enough meat on it to publish, and it'll just be sitting on my hard drive, gathering dust otherwise.
 
-The premise was as follows:
+## Premise
 
 > It's been 30 years since the Forge Wars ended, and the victorious Fulcrum Powers dismantled the Iron Bloc. The Old Bloc Worlds now languish under the brutal military occupancy of the Fifth Carbon Legion.
 >
@@ -48,7 +48,7 @@ I also came up with some custom moves to emphasise these storylines:
 
 The Agilius Free Sector is the core setting for _Castra_. It is a neutral zone within the Old Bloc Worlds, established as a buffer between the various Fulcrum powers.
 
-The Agilius Free Sector belonged to Iron Bloc, a socialist union of worlds that were dismantled after a prolonged interstellar war with the Fulcrum. This sector is now part of the Old Bloc Worlds, an occupied space rich in iron ore, which was the Bloc's main export. Profits were reinvested into giant infrastructure projects, much of which now lie in ruins or have been acquired by foreign investors from Fulcrum sectors.
+The Agilius Free Sector belonged to the Iron Bloc, a socialist union of worlds that were dismantled after a prolonged interstellar war with the Fulcrum. This sector is now part of the Old Bloc Worlds, an occupied space rich in iron ore, which was the Bloc's main export. Profits were reinvested into giant infrastructure projects, much of which now lie in ruins or have been acquired by foreign investors from Fulcrum sectors.
 
 > [!NOTE]
 >
