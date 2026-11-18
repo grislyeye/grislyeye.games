@@ -60,7 +60,7 @@ The Fifth Carbon Legion is occupying this sector. The Fifth Carbon Legion is the
 
 The most notable location in the sector is, of course, [Castra](#castra). Other notable locations include:
 
-- **Glora.** A solitary gas giant. Its atmosphere is rich in rare gases useful in the production of droids.
+- **Glora.** A solitary gas giant. Its atmosphere is rich in rare chemicals useful in the production of droids.
 - **H2 Facility**. One of the decommissioned, rare-gas refineries that sit in the upper atmosphere of Glora. It is now a secret Insurgency communications outpost, operated by a skeleton crew who coordinate operations in this sector. The cell is split by a leadership crisis as militant and conciliatory factions, seeking peaceful coexistence with the occupancy, vie for power.
 
 ### Castra
