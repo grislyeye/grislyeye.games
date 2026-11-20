@@ -1,5 +1,5 @@
 ---
-title: Castra play report
+title: Castra Play Report
 tags:
   - posts
 date: 2026-11-24
