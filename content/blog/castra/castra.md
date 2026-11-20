@@ -9,9 +9,9 @@ image: /blog/castra/castra.png
 
 At my table we stan [Andor](https://www.starwars.com/series/andor). We want our space opera gritty and anti-fascist. So, as a treat, I ran a short campaign loosely based on the TV series.
 
-**Castra** was a guided [Starforged](https://tomkinpress.com/pages/ironsworn-starforged) campaign set in a Star Wars-like setting hammered into Starforged. Of course, I wasn't just going to run it vanilla. I had some fun. Maybe subverted a few tropes. Play around with the lo-fi, steady-state futurism of 80s scifi. I dipped into Ancient Roman themes and motifs and focused on intrigue, while keeping the iron-based theme of the _Starforged_.
+**Castra** was a guided [Starforged](https://tomkinpress.com/pages/ironsworn-starforged) campaign set in a Star Wars-like setting hammered into Starforged. Of course, I wasn't just going to run it vanilla. I had some fun. Maybe subverted a few tropes. Play around with the lo-fi, steady-state futurism of 80s scifi. I dipped into Ancient Roman themes and motifs, and focused on intrigue, while keeping the iron-based theme of the _Starforged_.
 
-I'm posting it here because I don't think it's got enough meat on it to publish, and it'll just be sitting on my hard drive, gathering dust otherwise.
+I'm posting it here because I don't think it's got enough meat on it to publish, and it'll just be gathering dust in my notes otherwise.
 
 ## Premise
 
@@ -29,13 +29,13 @@ I'm posting it here because I don't think it's got enough meat on it to publish,
 
 Players start as agents of the Iron Insurgency. The Insurgency is a ragtag network of spies, sympathizers, radicals and Forge War veterans who are fighting a guerrilla war against the Fifth Carbon Legion. Through a campaign of sabotage, espionage and guerrilla warfare they seek to break the occupation and re-establish the Iron Bloc. The Iron Insurgency has repurposed the heavy machinery of its industrial past as weapons against the Fifth Carbon Legion.
 
-Players begin with Monarch (a Formidable Insurgency Contact) as their starting connection. They know very little about him, only that he's very secretive, communicates only by radio and works for the Iron Insurgency. Unbeknownst to the rest of the insurgency, Monarch is secretly raising an army to strike back at the Fifth Carbon Legion. His plan is to acquire the [Strontium](#the-strontium) command codes and have the party imprisoned aboard the Strontium. He has an agent in the crew who can release the party so that they can then gain control of the destroyer and use it to start a war to reunite the Old Bloc Worlds.
+Players begin with Monarch (a Formidable Insurgency Contact) as their starting connection. They know very little about him, only that he's very secretive, communicates only by radio and works for the Iron Insurgency. Monarch is secretly raising an army to strike back at the Fifth Carbon Legion. His plan is to acquire the [Strontium](#the-strontium) command codes and have the party imprisoned aboard the Strontium. He has an agent in the crew who can release the party so that they can then gain control of the destroyer and use it to start a war to reunite the Old Bloc Worlds.
 
-Grand Lictor Penance ■■■■ is hunting for Monarch. Unbeknownst to _his_ superiors in Fifth Carbon Legion, he plans to help the party escape, long enough for them to lead him to his target.
+Grand Lictor Penance ■■■■ is hunting for Monarch. Unbeknownst to his superiors in Fifth Carbon Legion he plans to help the party escape, long enough for them to lead him to his target.
 
 I also came up with some custom moves to emphasize these storylines:
 
-- **When Monarch aids you** take the normal benefits and roll +shadow. On a **strong hit,** your discretion is rewarded. Take an additional +1 momentum. On a **miss** Fulcrum forces are alerted to your presence and you must Pay the Price.
+- **When Monarch aids you** take the normal benefits and roll +shadow. On a **strong hit,** your discretion is rewarded. Take an additional +1 momentum. On a **miss** Fulcrum forces are alerted to your presence, and you must Pay the Price.
 
 - **While you're being followed by Penance, when you are facing defeat at the hands of the Fulcrum** roll +shadow. On a **miss** Penance intervenes to help you at the last moment. He does not give any explanation. Take +1 momentum. On a **weak hit** Penance intervenes, as on a miss, but leaves a clue as to his motivations. On a **strong hit,** you must face the threat alone.
 
@@ -58,7 +58,7 @@ The Fifth Carbon Legion is occupying this sector. The Fifth Carbon Legion is the
 The most notable location in the sector is, of course, [Castra](#castra). Other notable locations include:
 
 - **Glora.** A solitary gas giant. Its atmosphere is rich in rare chemicals useful in the production of droids.
-- **H2 Facility**. One of the decommissioned, rare-gas refineries that sit in the upper atmosphere of Glora. It is now a secret Insurgency communications outpost, operated by a skeleton crew who coordinate operations in this sector. The cell is split by a leadership crisis as militant and conciliatory factions, seeking peaceful coexistence with the occupancy, vie for power.
+- **H2 Facility**. One of the decommissioned, rare-gas refineries that sit in the upper atmosphere of Glora. It is now a secret Insurgency communications outpost, operated by a skeleton crew who coordinate operations in this sector. The cell is split by a leadership crisis as militant and conciliatory factions vie for power.
 
 ### Castra
 
@@ -68,7 +68,7 @@ The most notable location in the sector is, of course, [Castra](#castra). Other 
 >
 > These maps were created using _The Department of Unusual Observations'_ excellent [Sector Grid](https://deptofunusual.itch.io/sector-grids) templates. They're free, the look crazy good and really pulled together the vibe of the campaign.
 
-Castra itself is an occupied spaceport on the storm world of Agilius. The city has been demarcated as Fulcrum special economic zone. Because of its dubious legal status, it also operates as a diplomatic no-man's-land populated by profiteers, spies and political exiles. The Fifth Carbon Legion's capital ship, [The Strontium](#the-strontium) (■■■■■), orbits the planet, its menacing presence looming over the city.
+Castra itself is an occupied spaceport on the storm world of Agilius. The city has been demarcated as a Fulcrum special economic zone. Because of its dubious legal status, it also operates as a diplomatic no-man's-land populated by profiteers, spies and political exiles. The Fifth Carbon Legion's capital ship, [The Strontium](#the-strontium) (■■■■■), orbits the planet, its menacing presence looming over the city.
 
 Principles:
 
@@ -84,17 +84,17 @@ Locations and NPCs within the city include:
 
 - **Arnav's:** seedy cantina built at the top of an inactive Iron Bloc comms antenna, damaged in the Forge Wars. It is also a front for the Iron Insurgency, where access to a secured commslink and other support might be found.
   - **Arnav Keff.** Proprietor and Insurgency agent code-named Chimera. Paranoid, disfigured.
-- **Central Plaza.** A large, circular plaza situated at the centre of the city core. Home to a permanent bazaar, where merchants trade goods as they arrive from the space yard, day and night. It is dominated by the Ellegiate, which overlooks the plaza.
+- **Central Plaza.** A large, circular plaza situated at the centre of the city core. Home to a permanent bazaar where merchants trade goods day and night. It is dominated by the Ellegiate, which overlooks the plaza.
 - **Ellegiate:** once Castra's premium hotel, before it was commandeered by the Fifth Carbon Legion as quarters for legionnaire officers and visiting Fulcrum dignitaries.
 - **Shipyard.** The Shipyard on Castra sits apart from the city core, on a platform over the sea.
-  - **FAB-R.** Nav droid who operates the shipyard on Castra. No ship operations in and out of Castra slip his notice. He was a nav droid aboard an Iron Insurgency war ship before he was captured and re-purposed by the Fifth Carbon Legion.
-- **Thermicium.** A series of thermal baths carved out of the bedrock beneath Castra. They were intended as communal baths for workers, but now they are an exclusive luxury for merchants and Fifth Carbon Legion officers.
+  - **FAB-R.** Nav droid who operates the shipyard on Castra. No ship operations in and out of Castra slip his notice. He was a nav droid aboard an Iron Insurgency war ship before he was captured and re-purposed by the Legion.
+- **Thermicium.** A series of thermal baths carved out of the bedrock beneath Castra. They were intended as communal baths for workers, but now they are an exclusive luxury for merchants and Legion officers.
 
 ### Hypatia
 
 A vast, metal cube hangs in the firmament, its thick hull pockmarked with asteroid impacts, docking ports, antennae and weapon turrets.
 
-Hypatia is a space habitat, home to thousands of Unified Sectors civilians who support the Fifth Carbon Legion operations in the Agilius Free Sector. Inside is a hive of box-like living units, offices, workshops and containers, all stacked on top of each other. It houses administrators, technicians, managers, engineers, mechanics, and all their families.
+Hypatia is a space habitat, home to thousands of Unified Sectors civilians who support the Fifth Carbon Legion operations in the Agilius Free Sector. Inside is a hive of box-like living units, offices, workshops and containers, all stacked on top of each other. It houses administrators, technicians, managers, engineers, mechanics and their families.
 
 Principles:
 
@@ -154,7 +154,6 @@ Centurions will rarely be encountered alone, and work best together. A well-trai
 
 **Drives:**
 
-- Root out insurgents
 - Constantly vigilant for threats
 - Relentlessly hound targets
 - Play fetch
