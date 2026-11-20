@@ -5,14 +5,11 @@ tags:
 date: 2026-11-19
 layout: layouts/post.njk
 image: /blog/castra/castra.png
-randomizers: true
 ---
 
-At my table we stan [Andor](https://www.starwars.com/series/andor).
+At my table we stan [Andor](https://www.starwars.com/series/andor). We want our space opera gritty and anti-fascist. So, as a treat, I ran a short campaign loosely based on the TV series.
 
-as a treat, I ran a short campaign **Castra** was a guided [Starforged](https://tomkinpress.com/pages/ironsworn-starforged) campaign I ran, loosely based on _Andor_. My group were on a post-Season 2 high and we had a spare slot, so I thought I'd give my players a little gift and run this for them.
-
-Castra was set in the [Agilius Free Sector](#agilius-free-sector), a Star Wars-like setting hammered into the Starforged game. Of course, I wasn't just going to run it in a vanilla Star Wars setting. I had some fun with it. Maybe subverted a few tropes. Play around with the lo-fi, steady-state futurism of 80s scifi. I dipped into Ancient Roman themes and motifs and focused on intrigue, while keeping the iron-based theme of the _Starforged_.
+**Castra** was a guided [Starforged](https://tomkinpress.com/pages/ironsworn-starforged) campaign set in a Star Wars-like setting hammered into Starforged. Of course, I wasn't just going to run it vanilla. I had some fun. Maybe subverted a few tropes. Play around with the lo-fi, steady-state futurism of 80s scifi. I dipped into Ancient Roman themes and motifs and focused on intrigue, while keeping the iron-based theme of the _Starforged_.
 
 I'm posting it here because I don't think it's got enough meat on it to publish, and it'll just be sitting on my hard drive, gathering dust otherwise.
 
@@ -22,25 +19,25 @@ I'm posting it here because I don't think it's got enough meat on it to publish,
 >
 > You are members of the Iron Insurgency, a ragtag network of spies, sympathizers, radicals and Forge War veterans who are fighting a guerrilla war against the occupation.
 >
-> Despite your fervour, it's a war you've been losing, but there is hope. You've been sent on a mission to recover vital information that could turn the tide.
+> Despite your fervour it's a war you've been losing, but there is hope. You've been sent on a mission to recover vital information that could turn the tide.
 >
 > You arrive at the backwater spaceport of Castra, a Fulcrum Special economic zone located in the Agilius Free Sector. Somewhere in the city lies a secret that could win the war against the occupation.
 >
-> Unfortunately, you're not the first to get there. The Strontium, a Hydra-Class Destroyer, has arrived in orbit, and its menacing presence looms over the city. For the moment you pass the centurion patrols unnoticed, but its only a matter of time before you attract unwanted attention.
+> Unfortunately, you're not the first to get there. The Strontium, a Hydra-Class Destroyer, has arrived in orbit, and its menacing presence looms over the city. For the moment you pass the centurion patrols unnoticed, but it's only a matter of time before you attract unwanted attention.
 >
 > A local fixer has set up a rendezvous with the seller. All you have to do is show up, make the exchange and get out.
 
 Players start as agents of the Iron Insurgency. The Insurgency is a ragtag network of spies, sympathizers, radicals and Forge War veterans who are fighting a guerrilla war against the Fifth Carbon Legion. Through a campaign of sabotage, espionage and guerrilla warfare they seek to break the occupation and re-establish the Iron Bloc. The Iron Insurgency has repurposed the heavy machinery of its industrial past as weapons against the Fifth Carbon Legion.
 
-Players begin with Monarch (a Formidable Insurgency Contact) as their starting connection. They know very little about him, only that he's very secretive, communicates only by radio and works for the Iron Insurgency. Unbenownkst to the rest of the insurgency, Monarch is secretly raising an army to strike back at the Fifth Carbon Legion. His plan is to acquire the [Strontium](#the-strontium) command codes and have the party imprisoned aboard the Strontium. He has an agent aboard who can release the party so that they can then gain control of the Strontium and use it to start a war to reunite the Old Bloc Worlds.
+Players begin with Monarch (a Formidable Insurgency Contact) as their starting connection. They know very little about him, only that he's very secretive, communicates only by radio and works for the Iron Insurgency. Unbeknownst to the rest of the insurgency, Monarch is secretly raising an army to strike back at the Fifth Carbon Legion. His plan is to acquire the [Strontium](#the-strontium) command codes and have the party imprisoned aboard the Strontium. He has an agent in the crew who can release the party so that they can then gain control of the destroyer and use it to start a war to reunite the Old Bloc Worlds.
 
-Grand Lictor Penance ■■■■ is is hunting for Monarch. Unbeknownst to _his_ superiors in Fifth Carbon Legion, he plans to help the party escape, long enough for them to lead him to his target.
+Grand Lictor Penance ■■■■ is hunting for Monarch. Unbeknownst to _his_ superiors in Fifth Carbon Legion, he plans to help the party escape, long enough for them to lead him to his target.
 
-I also came up with some custom moves to emphasise these storylines:
+I also came up with some custom moves to emphasize these storylines:
 
-- **When Monarch aids you** take the normal benefits and roll +shadow. On a **strong hit** your discretion is rewarded. Take an additional +1 momentum. On a **miss** Fulcrum forces are alerted to your presence and you must Pay the Price.
+- **When Monarch aids you** take the normal benefits and roll +shadow. On a **strong hit,** your discretion is rewarded. Take an additional +1 momentum. On a **miss** Fulcrum forces are alerted to your presence and you must Pay the Price.
 
-- **While you're being followed by Penance, when you are facing defeat at the hands of the Fulcrum** roll +shadow. On a **miss** Penance intervenes to help you at the last moment. He does not give any explanation. Take +1 momentum. On a **weak hit** Penance intervenes, as on a miss, but leaves a clue as to his motivations. On a **strong hit** you must face the threat alone.
+- **While you're being followed by Penance, when you are facing defeat at the hands of the Fulcrum** roll +shadow. On a **miss** Penance intervenes to help you at the last moment. He does not give any explanation. Take +1 momentum. On a **weak hit** Penance intervenes, as on a miss, but leaves a clue as to his motivations. On a **strong hit,** you must face the threat alone.
 
 ## Agilius Free Sector
 
@@ -56,7 +53,7 @@ The Agilius Free Sector belonged to the Iron Bloc, a socialist union of worlds t
 >
 > Emblem of the Fifth Carbon Legion.
 
-The Fifth Carbon Legion is occupying this sector. The Fifth Carbon Legion is the Fulcrum Legion (Legions) that invaded the Iron Bloc during the Forge Wars. It maintains a strong military presence in the Old Bloc Worlds, running counter-insurgency operations, maintaining the occupation, enforcing the draconian laws of the occupancy and brutally suppressing dissent.
+The Fifth Carbon Legion is occupying this sector. The Fifth Carbon Legion is the Fulcrum force that invaded the Iron Bloc during the Forge Wars. It maintains a strong military presence in the Old Bloc Worlds, running counter-insurgency operations, maintaining the occupation, enforcing the Draconian laws of the occupancy and brutally suppressing dissent.
 
 The most notable location in the sector is, of course, [Castra](#castra). Other notable locations include:
 
@@ -85,8 +82,8 @@ Principles:
 
 Locations and NPCs within the city include:
 
-- **Arnav's:** seedy cantina built at the top of an inactive Iron Bloc comms antenna, damaged in the Forge Wars. It is also a front for the Iron Insurgency, where access to a secured commslinks and other support might be found.
-  - **Arnav Keff.** Proprietor and Insurgency agent code-named Chimera. Paranoid, Disfigured.
+- **Arnav's:** seedy cantina built at the top of an inactive Iron Bloc comms antenna, damaged in the Forge Wars. It is also a front for the Iron Insurgency, where access to a secured commslink and other support might be found.
+  - **Arnav Keff.** Proprietor and Insurgency agent code-named Chimera. Paranoid, disfigured.
 - **Central Plaza.** A large, circular plaza situated at the centre of the city core. Home to a permanent bazaar, where merchants trade goods as they arrive from the space yard, day and night. It is dominated by the Ellegiate, which overlooks the plaza.
 - **Ellegiate:** once Castra's premium hotel, before it was commandeered by the Fifth Carbon Legion as quarters for legionnaire officers and visiting Fulcrum dignitaries.
 - **Shipyard.** The Shipyard on Castra sits apart from the city core, on a platform over the sea.
@@ -191,7 +188,7 @@ Cerberites are used by centurions for patrol, tracking and bomb detection. Typic
 - Strike quickly and deadly with bioweapon tongue
 - Turns target's bodies against themselves
 
-Grand Lictor Penance is a Fulcrum llictor, psionic and spy-catcher.
+Grand Lictor Penance is a Fulcrum lictor, psionic and spy-catcher.
 
 ### Striga ■
 
@@ -199,17 +196,15 @@ Striga are deployed by the Legions for precision ship-to-ship and land-to-air co
 
 ### Striga Flock ■■■
 
-Carriers can deploy hundreds of Striga at a moments notice, swarming enemy craft with overwhelming force.
+Carriers can deploy hundreds of striga at a moments notice, swarming enemy craft with overwhelming force.
 
 ### Striga Swarm ■■■■
 
 A larger carrier, like a Hydra-Class Destroyer, can deploy thousands of these fighters.
 
-## Appendix: Vibes
+## Appendix I: Spark Table
 
 We shouldn't really call them [spark tables](https://www.bastionland.com/2017/11/electric-modernity-and-spark-tables.html), vibe tables is a way better term. Whatever, here is a random table of prompts for when you're stuck and want something thematic.
-
-<vellum-random-table select="#result-1" preroll hidecalc class="two-column">
 
 | d20 | Spark 1      | Spark 2      |
 | --- | ------------ | ------------ |
@@ -234,17 +229,7 @@ We shouldn't really call them [spark tables](https://www.bastionland.com/2017/11
 | 19  | Turquoise    | Trace        |
 | 20  | Scuffed      | Trouble      |
 
-<div class="roller">
-<my-button class="small">
-<button>Roll</button>
-</my-button>
-<input id="result-1" type="text" />
-</div>
-</vellum-random-table>
-
-## Appendix II: Clues and Rumours
-
-<vellum-random-table select="#result-2" preroll hidecalc class="two-column">
+## Appendix II: Random Rumours
 
 | d20 | Clue or Rumour                                                                                                                  |
 | --- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -268,11 +253,3 @@ We shouldn't really call them [spark tables](https://www.bastionland.com/2017/11
 | 18  | A comms from The Captain to Grand Lictor Penance asking him for an update and demanding he report to the Strontium immediately. |
 | 19  | The party are being followed by a hooded figure.                                                                                |
 | 20  | The Ernelius docked at Castra recently, despite the fact there hasn't been an iron mine here for years.                         |
-
-<div class="roller">
-<my-button class="small">
-<button>Roll</button>
-</my-button>
-<input id="result-2" type="text" />
-</div>
-</vellum-random-table>
