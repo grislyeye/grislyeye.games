@@ -9,7 +9,6 @@ import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 
 import pluginSitemap from "@quasibit/eleventy-plugin-sitemap";
 import pluginLit from "@lit-labs/eleventy-plugin-lit";
-import pluginFavicons from "eleventy-plugin-gen-favicons";
 import pluginSEO from "eleventy-plugin-seo";
 import pluginGoogleFonts from "eleventy-google-fonts";
 
@@ -40,7 +39,7 @@ export default async (eleventyConfig) => {
     "./public/": "/"
   });
 
-  eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
+  eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg,manifest}");
   eleventyConfig.addWatchTarget("content/**/*.csv");
 
   eleventyConfig
@@ -89,7 +88,6 @@ export default async (eleventyConfig) => {
       hostname: metadata.url
     }
   });
-  eleventyConfig.addPlugin(pluginFavicons);
   eleventyConfig.addPlugin(pluginSEO, {
     title: metadata.title,
     description: metadata.description,
