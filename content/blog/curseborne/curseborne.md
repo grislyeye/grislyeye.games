@@ -2,8 +2,7 @@
 title: Curseborne
 tags:
   - posts
-  - drafts
-date: 2026-12-01
+date: 2026-12-08
 layout: layouts/review.njk
 image: /blog/curseborne/cover.png
 rating: 3
