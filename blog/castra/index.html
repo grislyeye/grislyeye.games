@@ -1,0 +1,1414 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Castra Play Report - The Grisly Eye</title>
+
+<meta name="description" content="...is Ric Wood, indie game designer and forever GM.">
+<meta name="robots" content="index,follow">
+<meta name="author" content="Ric Wood">
+
+<link rel="canonical" href="/blog/castra/">
+
+<meta property="og:title" content="Castra Play Report - The Grisly Eye">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="/blog/castra/">
+<meta property="og:description" content="...is Ric Wood, indie game designer and forever GM.">
+<meta property="og:image" content="/blog/castra/castra.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@grislyeye">
+<meta name="twitter:url" content="/blog/castra/">
+<meta name="twitter:title" content="Castra Play Report - The Grisly Eye">
+<meta name="twitter:description" content="...is Ric Wood, indie game designer and forever GM.">
+<meta name="twitter:image" content="/blog/castra/castra.png">
+
+
+
+    <meta name="description" content="...is Ric Wood, indie game designer and forever GM.">
+    <meta name="fediverse:creator" content="@grislyeye@dice.camp">
+
+    <link rel="alternate" href="/rss.xml" type="application/rss+xml" title="The Grisly Eye">
+
+    <style>:root {
+  --font-family: "Alegreya", serif;
+  --title-font-family: "Andada Pro", serif;
+  --subtitle-font-family: "Alegreya Sans", sans;
+
+  --background-color: black;
+
+  --text-color: white;
+  --accent-color: red;
+  --muted-color: #a8a8a8;
+
+  --content-max-width: 740px;
+  --content-subtitle-max-width: 200px;
+
+  --fluid-gap: clamp(0.75rem, 3vw, 1.5rem);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  margin: 0;
+  background-image: url("/images/background.webp");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: var(--background-color);
+}
+
+html,
+body {
+  font-family: var(--font-family);
+  font-size: 13pt;
+  color: var(--text-color);
+  line-height: 1;
+}
+
+body {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+main {
+  max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+  margin: 0 auto 7rem;
+}
+
+main > :first-child {
+  margin-top: 0;
+}
+
+nav,
+footer {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+main > header {
+  margin-bottom: 7rem;
+}
+
+@media (width < 550px) {
+  main > header {
+    margin-bottom: 3rem;
+  }
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 5rem;
+  padding: 0;
+  list-style: none;
+}
+
+@media (width < 550px) {
+  nav {
+    margin-bottom: 3rem;
+  }
+}
+
+footer {
+  color: var(--muted-color);
+  text-align: center;
+  margin-bottom: 3.5em;
+}
+
+h1 {
+  font-family: var(--title-font-family);
+  line-height: 1;
+}
+
+h2,
+h3,
+h4 {
+  font-family: var(--title-font-family);
+}
+
+p {
+  line-height: 1;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+main > my-hero,
+main > my-section {
+  max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+  margin-bottom: 7rem;
+}
+
+.previews {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-auto-rows: minmax(160px, 1fr);
+  gap: var(--fluid-gap);
+  padding: 0;
+  margin: 0;
+}
+
+ul.previews {
+  list-style: none;
+}
+
+.previews a,
+.previews li {
+  margin: 0;
+  padding: 0;
+}
+
+my-preview {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1;
+  transition:
+    filter 0.2s ease,
+    transform 0.2s ease;
+}
+
+.previews a:hover my-preview,
+.previews a:focus my-preview {
+  filter: brightness(1.15);
+  transform: scale(1.02);
+}
+
+section.small {
+  break-inside: avoid-column;
+}
+
+section.small.page {
+  font-size: 1.5rem;
+}
+
+ul,
+ol {
+  padding-left: 2em;
+}
+
+input {
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+}
+
+.content input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+span.product {
+  font-style: italic;
+  color: var(--accent-color);
+}
+
+span.title {
+  color: var(--accent-color);
+  font-variant: small-caps;
+}
+
+.page-subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+@media (width < 970px) {
+  .page-subtitle {
+    flex-direction: row;
+    padding-bottom: 0.3em;
+  }
+
+  .page-subtitle > * + * {
+    border-left: 1px solid;
+    padding-left: 0.5em;
+  }
+}</style>
+
+    <link rel="stylesheet" href="/bundle/RTV6NPa9Tj.css">
+
+    <script type="importmap">
+      {
+        "imports": {
+          "lit": "/vendor/lit/index.js",
+          "lit/": "/vendor/lit/",
+          "@lit/reactive-element": "/vendor/@lit/reactive-element/reactive-element.js",
+          "@lit/reactive-element/": "/vendor/@lit/reactive-element/",
+          "lit-element/": "/vendor/lit-element/",
+          "lit-html": "/vendor/lit-html/lit-html.js",
+          "lit-html/": "/vendor/lit-html/"
+        }
+      }
+    </script>
+
+    <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="The Grisly Eye">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <meta name="theme-color" content="#000000">
+
+    
+
+    
+
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"><style data-href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Andada+Pro:wght@400;700&display=swap">/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk96fp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk967p57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk96bp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk96np57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk96Xp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk96Tp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk96fp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk967p57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk96bp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk96np57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk96Xp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk96Tp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk96fp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk967p57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk96bp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk96np57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk96Xp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk96Tp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaHrEBBsBhlBjvfkSLk96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLsx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLlx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLtx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLix6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLux6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLvx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLsx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLlx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLtx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLix6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLux6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLvx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLsx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLlx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLtx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLix6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLux6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLvx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v28/5aUz9_-1phKLFgshYDvh6Vwt7VdtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v28/5aUz9_-1phKLFgshYDvh6Vwt7V5tvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v28/5aUz9_-1phKLFgshYDvh6Vwt7VZtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v28/5aUz9_-1phKLFgshYDvh6Vwt7VltvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v28/5aUz9_-1phKLFgshYDvh6Vwt7VVtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v28/5aUz9_-1phKLFgshYDvh6Vwt7VRtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v28/5aUz9_-1phKLFgshYDvh6Vwt7VptvWdUhm8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v26/HhyRU5Qi9-SuOEhPe4LtAIZqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v26/HhyRU5Qi9-SuOEhPe4LtAIdqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v26/HhyRU5Qi9-SuOEhPe4LtAIlqSJsL9_A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v26/HhyRU5Qi9-SuOEhPe4LtAIZqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v26/HhyRU5Qi9-SuOEhPe4LtAIdqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v26/HhyRU5Qi9-SuOEhPe4LtAIlqSJsL9_A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+
+    <link href="mailto:ric@grislyeye.games" rel="me">
+  </head>
+
+  <body dsd-pending="">
+
+    <script>
+      if (HTMLTemplateElement.prototype.hasOwnProperty("shadowRoot")) {
+        document.body.removeAttribute("dsd-pending");
+      }
+    </script>
+
+    <nav>
+      <my-nav      bluesky="https://bsky.app/profile/grislyeye.games" email="/mailing-list/" mastodon="https://dice.camp/@grislyeye" rss="/rss.xml" location="London"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: var(--subtitle-font-family);
+      font-size: 12pt;
+      color: var(--muted-color);
+    }
+
+    @media (width < 650px) {
+      :host {
+        align-items: flex-start;
+      }
+    }
+
+    a {
+      color: var(--muted-color);
+      padding: 0;
+      margin: 0;
+    }
+
+    a:hover {
+      color: white;
+    }
+
+    .main {
+      display: flex;
+      align-items: center;
+      min-width: max-content;
+      gap: 0.75em;
+    }
+
+    .main img.logo {
+      height: 30px;
+    }
+
+    .socials {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 0.4em 0.5em;
+      color: var(--muted-color);
+    }
+
+    .social + .social {
+      border-left: 1px solid var(--muted-color);
+      padding-left: 0.5em;
+    }
+
+    .social a {
+      display: flex;
+      align-items: center;
+      gap: 0.3em;
+    }
+
+    .social a:hover img.icon {
+      opacity: 1;
+    }
+
+    .social img.icon {
+      height: 0.8em;
+      opacity: 0.7;
+    }
+
+    @media (width < 650px) {
+      .socials {
+        padding-top: 0.7em;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+
+      .social + .social {
+        border-left: none;
+        padding-left: 0;
+      }
+    }
+  </style><!--lit-part fVVZWDRA2mM=-->
+      <div class="main">
+        <a href="/"
+          ><img src="/images/logo.svg" class="logo" alt="Grisly Eye Games logo"
+        /></a>
+        <span>
+          <a href="/"><slot name="name"></slot></a> |
+          <a href="/"><slot name="title"></slot></a>
+        </span>
+      </div>
+
+      <div class="socials">
+        <div class="social">
+          <img src="/images/location.svg" class="icon" alt="Location icon" />
+          <span id="location"><!--lit-part-->London<!--/lit-part--></span>
+        </div>
+
+        <!--lit-part m6eacl2vrQ0=--> <div class="social">
+      <!--lit-node 1--><a rel="me" href="/mailing-list/" title="Mailing List">
+        <!--lit-node 2--><img src="/images/email.svg" class="icon" alt="email label" />
+        <!--lit-part-->Mailing List<!--/lit-part-->
+      </a>
+    </div><!--/lit-part-->
+        <!--lit-part BRUAAAUVAAA=--><?><!--/lit-part-->
+        <!--lit-part m6eacl2vrQ0=--> <div class="social">
+      <!--lit-node 1--><a rel="me" href="https://bsky.app/profile/grislyeye.games" title="Bluesky">
+        <!--lit-node 2--><img src="/images/bluesky.svg" class="icon" alt="bluesky label" />
+        <!--lit-part-->Bluesky<!--/lit-part-->
+      </a>
+    </div><!--/lit-part-->
+        <!--lit-part m6eacl2vrQ0=--> <div class="social">
+      <!--lit-node 1--><a rel="me" href="https://dice.camp/@grislyeye" title="Mastodon">
+        <!--lit-node 2--><img src="/images/mastodon.svg" class="icon" alt="mastodon label" />
+        <!--lit-part-->Mastodon<!--/lit-part-->
+      </a>
+    </div><!--/lit-part-->
+        <!--lit-part m6eacl2vrQ0=--> <div class="social">
+      <!--lit-node 1--><a rel="me" href="/rss.xml" title="RSS">
+        <!--lit-node 2--><img src="/images/rss.svg" class="icon" alt="rss label" />
+        <!--lit-part-->RSS<!--/lit-part-->
+      </a>
+    </div><!--/lit-part-->
+      </div>
+    <!--/lit-part--></template>
+        <span slot="name">Ric Wood</span>
+        <span slot="title">The Grisly Eye</span>
+      </my-nav>
+    </nav>
+
+    <main>
+      <article class="post content">
+  <my-page   id="post" name="Castra Play Report"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+    }
+
+    h1.title {
+      font-size: 5rem;
+      text-transform: uppercase;
+      line-height: 1;
+      padding-bottom: 10px;
+      margin: 0;
+      word-wrap: break-word;
+    }
+
+    @media (max-width: 500px) {
+      h1.title {
+        font-size: 4rem;
+      }
+    }
+
+    @media (max-width: 400px) {
+      h1.title {
+        font-size: 3rem;
+      }
+    }
+  </style><!--lit-part hZqPX3rbARc=-->
+      <h1 class="title"><!--lit-part 2TsA4Y5hAng=--><!--lit-part-->Castra<!--/lit-part--> <br />
+        <!--lit-part-->Play Report<!--/lit-part--><?><!--/lit-part--></h1>
+      <!--lit-node 2--><my-section defer-hydration><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+      margin-left: calc(var(--content-subtitle-max-width) * -1);
+    }
+
+    :host * {
+      box-sizing: border-box;
+    }
+
+    :host > section {
+      display: flex;
+      width: 100%;
+    }
+
+    .content {
+      max-width: var(--content-max-width);
+      width: 100%;
+    }
+
+    .subtitle {
+      min-width: var(--content-subtitle-max-width);
+      max-width: var(--content-subtitle-max-width);
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      padding-right: 1em;
+      text-align: right;
+
+      font-family: var(--subtitle-font-family);
+      font-size: 1rem;
+      color: var(--muted-color);
+    }
+
+    .next {
+      text-align: right;
+      color: var(--muted-color);
+    }
+
+    .next ::slotted(a),
+    .next ::slotted(a:hover),
+    .next ::slotted(a:active),
+    .next ::slotted(a:visited) {
+      color: var(--muted-color);
+    }
+
+    .next ::slotted(a:hover) {
+      color: white;
+    }
+
+    @media (max-width: 970px) {
+      :host {
+        margin-left: 0;
+      }
+
+      :host > section {
+        display: block;
+      }
+
+      .subtitle {
+        min-width: unset;
+        max-width: unset;
+        text-align: left;
+      }
+    }
+
+    ::slotted(*) {
+      margin-top: 0;
+    }
+  </style><!--lit-part K1jC4B449i4=-->
+      <section>
+        <div class="subtitle">
+          <slot name="subtitle"></slot>
+        </div>
+        <div class="content">
+          <slot></slot>
+        </div>
+      </section>
+      <div class="next">
+        <slot name="next"></slot>
+      </div>
+    <!--/lit-part--></template>
+        <div slot="subtitle"><slot name="subtitle"></slot></div>
+        <slot></slot>
+      </my-section>
+    <!--/lit-part--></template>
+    <div class="page-subtitle" slot="subtitle">
+      <span>25 November 2026</span>
+    </div>
+
+    <p>At my table we stan <a href="https://www.starwars.com/series/andor">Andor</a>. We want our space opera gritty and anti-fascist. So, as a treat, I ran a short campaign loosely based on the TV series.</p>
+<p><strong>Castra</strong> was a guided <a href="https://tomkinpress.com/pages/ironsworn-starforged">Starforged</a> campaign set in a Star Wars-like setting that I clumsily hammered into Starforged. Of course, I wasn't just going to run it vanilla. I had some fun. Maybe subverted a few tropes. Play around with the lo-fi, steady-state futurism of 80s scifi. I dipped into Ancient Roman themes and motifs, and focused on intrigue, while keeping the iron-based theme of the <em>Starforged</em>.</p>
+<p>I'm posting it here because I don't think it's got enough meat on it to publish, and it'll just be gathering dust in my notes otherwise.</p>
+<h2 id="premise" tabindex="-1"><a class="header-anchor" href="#premise">Premise</a></h2>
+<blockquote>
+<p>It's been 30 years since the Forge Wars ended, and the victorious Fulcrum Powers dismantled the Iron Bloc. The Old Bloc Worlds now languish under the brutal military occupancy of the Fifth Carbon Legion.</p>
+<p>You are members of the Iron Insurgency, a ragtag network of spies, sympathizers, radicals and Forge War veterans who are fighting a guerrilla war against the occupation.</p>
+<p>Despite your fervour it's a war you've been losing, but there is hope. You've been sent on a mission to recover vital information that could turn the tide.</p>
+<p>You arrive at the backwater spaceport of Castra, a Fulcrum Special economic zone located in the Agilius Free Sector. Somewhere in the city lies a secret that could win the war against the occupation.</p>
+<p>Unfortunately, you're not the first to get there. The Strontium, a Hydra-Class Destroyer, has arrived in orbit, and its menacing presence looms over the city. For the moment you pass the centurion patrols unnoticed, but it's only a matter of time before you attract unwanted attention.</p>
+<p>A local fixer has set up a rendezvous with the seller. All you have to do is show up, make the exchange and get out.</p>
+</blockquote>
+<p>Players start as agents of the Iron Insurgency. The Insurgency is a ragtag network of spies, sympathizers, radicals and Forge War veterans who are fighting a resistance war against the Fifth Carbon Legion. Through a campaign of sabotage, espionage and guerrilla warfare they seek to break the occupation and re-establish the Iron Bloc. The Iron Insurgency has repurposed the heavy machinery of its industrial past as weapons against the Fifth Carbon Legion.</p>
+<p>Players begin with Monarch (a Formidable Insurgency Contact) as their starting connection. They know very little about him, only that he's very secretive, communicates only by radio and works for the Iron Insurgency. Monarch is secretly raising an army to strike back at the Fifth Carbon Legion. His plan is to acquire the <a href="#the-strontium">Strontium</a> command codes and have the party imprisoned aboard the Strontium. He has an agent in the crew who can release the party so that they can then gain control of the destroyer and use it to start a war to reunite the Old Bloc Worlds.</p>
+<p>Grand Lictor Penance ■■■■ is hunting for Monarch. Unbeknownst to his superiors in Fifth Carbon Legion he plans to help the party escape, long enough for them to lead him to his target.</p>
+<p>I also came up with some custom moves to emphasize these storylines:</p>
+<ul>
+<li>
+<p><strong>When Monarch aids you</strong> take the normal benefits and roll +shadow. On a <strong>strong hit,</strong> your discretion is rewarded. Take an additional +1 momentum. On a <strong>miss</strong> Fulcrum forces are alerted to your presence, and you must Pay the Price.</p>
+</li>
+<li>
+<p><strong>While you're being followed by Penance, when you are facing defeat at the hands of the Fulcrum</strong> roll +shadow. On a <strong>miss</strong> Penance intervenes to help you at the last moment. He does not give any explanation. Take +1 momentum. On a <strong>weak hit</strong> Penance intervenes, as on a miss, but leaves a clue as to his motivations. On a <strong>strong hit,</strong> you must face the threat alone.</p>
+</li>
+</ul>
+<h2 id="agilius-free-sector" tabindex="-1"><a class="header-anchor" href="#agilius-free-sector">Agilius Free Sector</a></h2>
+<p><img src="agilius-sector.png" alt="Map of Agilius Free Sector" title="Map of Agilius Free Sector"></p>
+<p>The Agilius Free Sector is the core setting for <em>Castra</em>. It is a neutral zone within the Old Bloc Worlds, established as a buffer between the various Fulcrum powers.</p>
+<p>The Agilius Free Sector belonged to the Iron Bloc, a socialist union of worlds that were dismantled after a prolonged interstellar war with the Fulcrum. This sector is now part of the Old Bloc Worlds, an occupied space rich in iron ore, which was the Bloc's main export. Profits were reinvested into giant infrastructure projects, much of which now lie in ruins or have been acquired by foreign investors from Fulcrum sectors.</p>
+<aside><p><img src="fifth-carbon-legion.jpg" alt="fifth-carbon-legion"></p>
+<p>Emblem of the Fifth Carbon Legion.</p>
+</aside><p>The Fifth Carbon Legion is occupying this sector. The Fifth Carbon Legion is the Fulcrum force that invaded the Iron Bloc during the Forge Wars. It maintains a strong military presence in the Old Bloc Worlds, running counter-insurgency operations, maintaining the occupation, enforcing the Draconian laws of the occupancy and brutally suppressing dissent.</p>
+<p>The most notable location in the sector is, of course, <a href="#castra">Castra</a>. Other notable locations include:</p>
+<ul>
+<li><strong>Glora.</strong> A solitary gas giant. Its atmosphere is rich in rare chemicals useful in the production of droids.</li>
+<li><strong>H2 Facility</strong>. One of the decommissioned, rare-gas refineries that sit in the upper atmosphere of Glora. It is now a secret Insurgency communications outpost, operated by a skeleton crew who coordinate operations in this sector. The cell is split by a leadership crisis as militant and conciliatory factions vie for power.</li>
+</ul>
+<h3 id="castra" tabindex="-1"><a class="header-anchor" href="#castra">Castra</a></h3>
+<p><img src="castra.png" alt="Map of Castra" title="Map of Castra"></p>
+<aside><p>These maps were created using <em>The Department of Unusual Observations'</em> excellent <a href="https://deptofunusual.itch.io/sector-grids">Sector Grid</a> templates. They're free, the look crazy good and really pulled together the vibe of the campaign.</p>
+</aside><p>Castra itself is an occupied spaceport on the storm world of Agilius. The city has been demarcated as a Fulcrum special economic zone. Because of its dubious legal status, it also operates as a diplomatic no-man's-land populated by profiteers, spies and political exiles. The Fifth Carbon Legion's capital ship, <a href="#the-strontium">The Strontium</a> (■■■■■), orbits the planet, its menacing presence looming over the city.</p>
+<p>Principles:</p>
+<ul>
+<li><strong>Rust red</strong> waters.</li>
+<li>Completely <strong>polluted</strong> with mining run-off.</li>
+<li>Constant <strong>sea storms</strong> lash the streets and buildings.</li>
+<li><strong>Political exiles</strong> vie for off-world visas.</li>
+<li><strong>Occupied</strong> by Fulcrum military forces and private contractors.</li>
+<li>Swarms with spies and <strong>intrigue</strong>.</li>
+<li><strong>Imperialized</strong> shops and concessions for home-sick Centurions.</li>
+</ul>
+<p>Locations and NPCs within the city include:</p>
+<ul>
+<li><strong>Arnav's:</strong> seedy cantina built at the top of an inactive Iron Bloc comms antenna, damaged in the Forge Wars. It is also a front for the Iron Insurgency, where access to a secured commslink and other support might be found.
+<ul>
+<li><strong>Arnav Keff.</strong> Proprietor and Insurgency agent code-named Chimera. Paranoid, disfigured.</li>
+</ul>
+</li>
+<li><strong>Central Plaza.</strong> A large, circular plaza situated at the centre of the city core. Home to a permanent bazaar where merchants trade goods day and night. It is dominated by the Ellegiate, which overlooks the plaza.</li>
+<li><strong>Ellegiate:</strong> once Castra's premium hotel, before it was commandeered by the Fifth Carbon Legion as quarters for legionnaire officers and visiting Fulcrum dignitaries.</li>
+<li><strong>Shipyard.</strong> The Shipyard on Castra sits apart from the city core, on a platform over the sea.
+<ul>
+<li><strong>FAB-R.</strong> Nav droid who operates the shipyard on Castra. No ship operations in and out of Castra slip his notice. He was a nav droid aboard an Iron Insurgency war ship before he was captured and re-purposed by the Legion.</li>
+</ul>
+</li>
+<li><strong>Thermicium.</strong> A series of thermal baths carved out of the bedrock beneath Castra. They were intended as communal baths for workers, but now they are an exclusive luxury for merchants and Legion officers.</li>
+</ul>
+<h3 id="hypatia" tabindex="-1"><a class="header-anchor" href="#hypatia">Hypatia</a></h3>
+<p>A vast, metal cube hangs in the firmament, its thick hull pockmarked with asteroid impacts, docking ports, antennae and weapon turrets.</p>
+<p>Hypatia is a space habitat, home to thousands of Unified Sectors civilians who support the Fifth Carbon Legion operations in the Agilius Free Sector. Inside is a hive of box-like living units, offices, workshops and containers, all stacked on top of each other. It houses administrators, technicians, managers, engineers, mechanics and their families.</p>
+<p>Principles:</p>
+<ul>
+<li><strong>Infested.</strong> Unbeknownst to the public, Hypatia is infested by the remnants of a Fulcrum bioweapon, a mould-like fungus that is slowly poisoning the lower (and poorer) decks of the habitat. It can also awaken latent psionic powers, and Lictors are investigating why with keen interest.</li>
+</ul>
+<h3 id="the-strontium" tabindex="-1"><a class="header-anchor" href="#the-strontium">The Strontium</a></h3>
+<p>Hydra-Class Destroyers ■■■■■ are vast, hyperspace-capable starships and weapons platforms, typically deployed by the Legions to enforce foreign policy through intimidation and gunboat diplomacy. Each Hydra sports multiple turrets, hundreds of meters tall, each carrying an arsenal of high-energy weapons. Their combined might can bombard an entire planet.</p>
+<p>The Strontium is a Hydra-Class Destroyer in orbit around Agilius, and acts as a base of operations for the Fifth Carbon Legion on the planet.</p>
+<p>Principles:</p>
+<ul>
+<li>Prisoner-of-war black site.</li>
+<li>Lucina is a double-agent aboard the ship.</li>
+<li>Grand Lictor Penance is stationed here with three adepts.</li>
+</ul>
+<h2 id="enemies" tabindex="-1"><a class="header-anchor" href="#enemies">Enemies</a></h2>
+<h3 id="centauri-cruiser" tabindex="-1"><a class="header-anchor" href="#centauri-cruiser">Centauri Cruiser <strong>■■■■</strong></a></h3>
+<p>A Centauri Cruiser ■■■■ is a large transport ship, used by the Fifth Carbon Legion to deploy ground troops. It consists of a large, flat platform bristling with weapons and sensor arrays. When it lands, four large legs are deployed which sink into the mantle for stability and to give the cruiser tactical advantage from the platform's elevated position.</p>
+<h3 id="centurion" tabindex="-1"><a class="header-anchor" href="#centurion">Centurion ■</a></h3>
+<p><strong>Features:</strong></p>
+<ul>
+<li>Grey carbon-composite armour.</li>
+<li>Encrusted with comms and tactical gear.</li>
+<li>Radios pop and crackle.</li>
+</ul>
+<p><strong>Drives:</strong></p>
+<ul>
+<li>Obey orders.</li>
+<li>Kill insurgent scum.</li>
+<li>Talk shit.</li>
+</ul>
+<p><strong>Tactics:</strong></p>
+<ul>
+<li>Strike with overwhelming force and numbers.</li>
+<li>Pull back and call for reinforcements or Striga cover.</li>
+<li>Light it up just in case.</li>
+</ul>
+<p>Centurions are the ground troops of the Legions. Now that the Forge Wars are over, they are typically stationed at permanent garrisons on occupied worlds, working &quot;peacekeeping&quot; operations, suppressing insurgents, and basically fighting lukewarm, forever wars with the Fulcrum's various foreign enemies. Derogatorily called &quot;crabs&quot; due to the crustacean-like profile of their armour and tactical gear.</p>
+<h3 id="centurion-unit" tabindex="-1"><a class="header-anchor" href="#centurion-unit">Centurion Unit ■■</a></h3>
+<p>Centurions will rarely be encountered alone, and work best together. A well-trained centurion unit is greater than its parts.</p>
+<h3 id="cerberite" tabindex="-1"><a class="header-anchor" href="#cerberite"><strong>Cerberite ■■</strong></a></h3>
+<p><strong>Features</strong></p>
+<ul>
+<li>Dog-like droids</li>
+<li>Thick, spider-like limbs</li>
+<li>Highly attuned sensors</li>
+</ul>
+<p><strong>Drives:</strong></p>
+<ul>
+<li>Constantly vigilant for threats</li>
+<li>Relentlessly hound targets</li>
+<li>Play fetch</li>
+</ul>
+<p><strong>Tactics:</strong></p>
+<ul>
+<li>Leap to bring down opponents</li>
+<li>Clamp and hold for arrest</li>
+</ul>
+<p>Cerberites are used by centurions for patrol, tracking and bomb detection. Typically accompanied by centurion handlers. Cerberite units can be wilful, and often ignore commands once they detect enemies.</p>
+<h3 id="penance" tabindex="-1"><a class="header-anchor" href="#penance">Penance ■■■■</a></h3>
+<p><strong>Features:</strong></p>
+<ul>
+<li>Querulous voice and erratic manner</li>
+<li>Graven, bearded mask</li>
+<li>Shrivelled and scarred mouth</li>
+<li>Long, piercing neurotoxin tongue</li>
+<li>Master of combat psionics</li>
+</ul>
+<p><strong>Drives:</strong></p>
+<ul>
+<li>Destroy the Iron Insurgency</li>
+<li>Seek out and kill Monarch</li>
+<li>Indulge in sadistic torture</li>
+</ul>
+<p><strong>Tactics:</strong></p>
+<ul>
+<li>Lurk in shadows and jump out at strategic moment</li>
+<li>Strike quickly and deadly with bioweapon tongue</li>
+<li>Turns target's bodies against themselves</li>
+</ul>
+<p>Grand Lictor Penance is a Fulcrum lictor, psionic and spy-catcher.</p>
+<h3 id="striga" tabindex="-1"><a class="header-anchor" href="#striga">Striga ■</a></h3>
+<p>Striga are deployed by the Legions for precision ship-to-ship and land-to-air conflict. The distinctive sound profile of their sub-light thrusters can strike fear in the hearts of Fulcrum enemies.</p>
+<h3 id="striga-flock" tabindex="-1"><a class="header-anchor" href="#striga-flock">Striga Flock ■■■</a></h3>
+<p>Carriers can deploy hundreds of striga at a moments notice, swarming enemy craft with overwhelming force.</p>
+<h3 id="striga-swarm" tabindex="-1"><a class="header-anchor" href="#striga-swarm">Striga Swarm ■■■■</a></h3>
+<p>A larger carrier, like a Hydra-Class Destroyer, can deploy thousands of these fighters.</p>
+<h2 id="appendix-i-spark-table" tabindex="-1"><a class="header-anchor" href="#appendix-i-spark-table">Appendix I: Spark Table</a></h2>
+<p>We shouldn't really call them <a href="https://www.bastionland.com/2017/11/electric-modernity-and-spark-tables.html">spark tables</a>, vibe tables is a way better term. Whatever, here is a random table of prompts for when you're stuck and want something thematic.</p>
+<table>
+<thead>
+<tr>
+<th>d20</th>
+<th>Spark 1</th>
+<th>Spark 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Counter</td>
+<td>Insurgency</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Imperial</td>
+<td>Espionage</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Colonial</td>
+<td>Resistance</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Guerrilla</td>
+<td>Warfare</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Steady-state</td>
+<td>Camp</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Orbital</td>
+<td>Fatigue</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Training</td>
+<td>Relay</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Insidious</td>
+<td>Collaborator</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Splinter</td>
+<td>Defector</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Prison</td>
+<td>Camp</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Slick</td>
+<td>Massacre</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Power</td>
+<td>Traitor</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Iron</td>
+<td>War</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Carbon</td>
+<td>Tail</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Separatist</td>
+<td>Tell</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Slate</td>
+<td>Station</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Cobalt</td>
+<td>Smelter</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Mustard</td>
+<td>Schism</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Turquoise</td>
+<td>Trace</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Scuffed</td>
+<td>Trouble</td>
+</tr>
+</tbody>
+</table>
+<h2 id="appendix-ii-random-rumours" tabindex="-1"><a class="header-anchor" href="#appendix-ii-random-rumours">Appendix II: Random Rumours</a></h2>
+<table>
+<thead>
+<tr>
+<th>d20</th>
+<th>Clue or Rumour</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Endo Rees recently disappeared from Castra without a trace.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Comms logs showing unusually large amounts of comms to and from the H2 Facility on Glora.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Palp Nominus received payment from Monarch in person</td>
+</tr>
+<tr>
+<td>4</td>
+<td>There is an Insurgency (Iron Insurgency) commslink hidden in a backroom at Arnavs.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Navlogs showing Monarch's unregistered ship heading from Agilius back to Hypatia.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Centurions are searching Castra for a missing Knot bioweapon (false).</td>
+</tr>
+<tr>
+<td>7</td>
+<td>An old holo from the Forge Wars showing Monarch and his unit.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>The Senator has recently made a generous donation to the Force Charity.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>The Senator recently visited Hypatia on a fact finding mission where she met with Monarch.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>ARG-O recently returned to Castra from the H2 Facility to pick up spare transmitter parts.</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Commslogs between Strontium agent and Monarch.</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Commslogs between Monarch and Orm training compound.</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Penance and Monarch are old enemies.</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Legions tracker has been planted on the PCs ship since its last engine re-platting, several months ago.</td>
+</tr>
+<tr>
+<td>15</td>
+<td>There is an Insurgency (Iron Insurgency) commslink hidden in Monarch's office on Hypatia.</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Iron Insurgency to blame for the recent massacre at a Force Charity camp in war zone (false).</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Strontium agent sends a message to the party reading PNCE WNTS U T LD HIM T CDIUM</td>
+</tr>
+<tr>
+<td>18</td>
+<td>A comms from The Captain to Grand Lictor Penance asking him for an update and demanding he report to the Strontium immediately.</td>
+</tr>
+<tr>
+<td>19</td>
+<td>The party are being followed by a hooded figure.</td>
+</tr>
+<tr>
+<td>20</td>
+<td>The Ernelius docked at Castra recently, despite the fact there hasn't been an iron mine here for years.</td>
+</tr>
+</tbody>
+</table>
+
+
+  </my-page>
+</article>
+
+    </main>
+
+    <footer>
+      <p class="legal">
+        Website version 3.37.0 &copy; 2016-2026 Grisly Eye Games. The Grisly Eye symbol was designed by Freepik. Some links contain affiliate codes to help cover hosting costs and fund my work.
+      </p>
+    </footer>
+
+    <script type="module">
+      (async () => {
+        const litHydrateSupportInstalled = import(
+          '/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js'
+        );
+
+        if (!HTMLTemplateElement.prototype.hasOwnProperty('shadowRoot')) {
+          const {hydrateShadowRoots} = await import(
+            '/vendor/@webcomponents/template-shadowroot/template-shadowroot.js'
+          );
+          hydrateShadowRoots(document.body);
+          document.body.removeAttribute("dsd-pending");
+        }
+
+        await litHydrateSupportInstalled;
+
+        import('/bundle/my-components.js');
+      })();
+    </script>
+
+    <!-- Current page: /blog/castra/ -->
+  </body>
+</html>
