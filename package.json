@@ -28,7 +28,7 @@
     "@lit-labs/eleventy-plugin-lit": "^1.0.6",
     "@mdit/plugin-alert": "^2.2.0",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
-    "@types/node": "^26.6.6",
+    "@types/node": "^26.6.10",
     "@webcomponents/template-shadowroot": "^0.2.1",
     "eleventy-google-fonts": "^0.1.0",
     "eleventy-plugin-seo": "^0.5.2",
@@ -43,8 +43,8 @@
     "plop": "^4.0.5",
     "prettier": "3.10.1",
     "rimraf": "^6.1.4",
-    "stylelint": "^18.0.0",
-    "stylelint-config-standard": "^41.0.0"
+    "stylelint": "^18.1.0",
+    "stylelint-config-standard": "^41.1.0"
   },
   "scripts": {
     "build": "npx @11ty/eleventy",
