@@ -2,7 +2,7 @@
 title: Castra Play Report
 tags:
   - posts
-date: 2026-11-24
+date: 2026-11-25
 layout: layouts/post.njk
 image: /blog/castra/castra.png
 ---
