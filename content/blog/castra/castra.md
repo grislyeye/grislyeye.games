@@ -9,7 +9,7 @@ image: /blog/castra/castra.png
 
 At my table we stan [Andor](https://www.starwars.com/series/andor). We want our space opera gritty and anti-fascist. So, as a treat, I ran a short campaign loosely based on the TV series.
 
-**Castra** was a guided [Starforged](https://tomkinpress.com/pages/ironsworn-starforged) campaign set in a Star Wars-like setting hammered into Starforged. Of course, I wasn't just going to run it vanilla. I had some fun. Maybe subverted a few tropes. Play around with the lo-fi, steady-state futurism of 80s scifi. I dipped into Ancient Roman themes and motifs, and focused on intrigue, while keeping the iron-based theme of the _Starforged_.
+**Castra** was a guided [Starforged](https://tomkinpress.com/pages/ironsworn-starforged) campaign set in a Star Wars-like setting that I clumsily hammered into Starforged. Of course, I wasn't just going to run it vanilla. I had some fun. Maybe subverted a few tropes. Play around with the lo-fi, steady-state futurism of 80s scifi. I dipped into Ancient Roman themes and motifs, and focused on intrigue, while keeping the iron-based theme of the _Starforged_.
 
 I'm posting it here because I don't think it's got enough meat on it to publish, and it'll just be gathering dust in my notes otherwise.
 
@@ -27,7 +27,7 @@ I'm posting it here because I don't think it's got enough meat on it to publish,
 >
 > A local fixer has set up a rendezvous with the seller. All you have to do is show up, make the exchange and get out.
 
-Players start as agents of the Iron Insurgency. The Insurgency is a ragtag network of spies, sympathizers, radicals and Forge War veterans who are fighting a guerrilla war against the Fifth Carbon Legion. Through a campaign of sabotage, espionage and guerrilla warfare they seek to break the occupation and re-establish the Iron Bloc. The Iron Insurgency has repurposed the heavy machinery of its industrial past as weapons against the Fifth Carbon Legion.
+Players start as agents of the Iron Insurgency. The Insurgency is a ragtag network of spies, sympathizers, radicals and Forge War veterans who are fighting a resistance war against the Fifth Carbon Legion. Through a campaign of sabotage, espionage and guerrilla warfare they seek to break the occupation and re-establish the Iron Bloc. The Iron Insurgency has repurposed the heavy machinery of its industrial past as weapons against the Fifth Carbon Legion.
 
 Players begin with Monarch (a Formidable Insurgency Contact) as their starting connection. They know very little about him, only that he's very secretive, communicates only by radio and works for the Iron Insurgency. Monarch is secretly raising an army to strike back at the Fifth Carbon Legion. His plan is to acquire the [Strontium](#the-strontium) command codes and have the party imprisoned aboard the Strontium. He has an agent in the crew who can release the party so that they can then gain control of the destroyer and use it to start a war to reunite the Old Bloc Worlds.
 
@@ -234,7 +234,7 @@ We shouldn't really call them [spark tables](https://www.bastionland.com/2017/11
 | --- | ------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | Endo Rees recently disappeared from Castra without a trace.                                                                     |
 | 2   | Comms logs showing unusually large amounts of comms to and from the H2 Facility on Glora.                                       |
-| 3   | Palp Nominus received payment from Monarch in person.                                                                           |
+| 3   | Palp Nominus received payment from Monarch in person                                                                            |
 | 4   | There is an Insurgency (Iron Insurgency\) commslink hidden in a backroom at Arnavs.                                             |
 | 5   | Navlogs showing Monarch's unregistered ship heading from Agilius back to Hypatia.                                               |
 | 6   | Centurions are searching Castra for a missing Knot bioweapon (false).                                                           |
@@ -247,7 +247,7 @@ We shouldn't really call them [spark tables](https://www.bastionland.com/2017/11
 | 13  | Penance and Monarch are old enemies.                                                                                            |
 | 14  | Legions tracker has been planted on the PCs ship since its last engine re-platting, several months ago.                         |
 | 15  | There is an Insurgency (Iron Insurgency\) commslink hidden in Monarch's office on Hypatia.                                      |
-| 16  | Iron Insurgency to blame for the recent Massacre at a Force Charity camp in Warzone (false).                                    |
+| 16  | Iron Insurgency to blame for the recent massacre at a Force Charity camp in war zone (false).                                   |
 | 17  | Strontium agent sends a message to the party reading PNCE WNTS U T LD HIM T CDIUM                                               |
 | 18  | A comms from The Captain to Grand Lictor Penance asking him for an update and demanding he report to the Strontium immediately. |
 | 19  | The party are being followed by a hooded figure.                                                                                |
