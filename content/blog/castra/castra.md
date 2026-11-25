@@ -1,5 +1,5 @@
 ---
-title: Castra Play Report
+title: Castra Micro-setting
 tags:
   - posts
 date: 2026-11-25
