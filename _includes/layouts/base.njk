@@ -80,7 +80,7 @@
       <script type="module" src="/vendor/vellum-random-table/vellum-random-table.js"></script>
     {% endif %}
 
-    {% eleventyGoogleFonts 'https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Andada+Pro:wght@400;700&display=swap' %}
+    {% eleventyGoogleFonts 'https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Andada+Pro:wght@400;700&family=IBM+Plex+Mono:wght@400;700&display=swap' %}
 
     <link href="mailto:ric@grislyeye.games" rel="me">
   </head>
@@ -115,6 +115,8 @@
         Website version {{ pkg.version }} &copy; 2016-2026 Grisly Eye Games. The Grisly Eye symbol was designed by Freepik. Some links contain affiliate codes to help cover hosting costs and fund my work.
       </p>
     </footer>
+
+    {% include 'rootring.njk' %}
 
     <script type="module">
       (async () => {
